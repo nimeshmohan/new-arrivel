@@ -1,0 +1,121 @@
+/* global settings */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body > header > nav{
+    background-color:transparent;
+}
+body > header > nav > div > a{
+    color: #fff;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color:#FADE26;
+    font-weight: lighter;
+}
+#navbarSupportedContent > ul > li:nth-child(1) > a{
+    color: #FADE26;
+}
+#navbarSupportedContent > ul > li:nth-child(2) > a,
+#navbarSupportedContent > ul > li:nth-child(3) > a,
+#navbarSupportedContent > ul > li:nth-child(4) > a{
+    color:#fff;
+}
+body > header > nav > div > a{
+    color: #FADE26;
+}
+li{
+    list-style: none;
+}
+body{
+    font-size: 16px;
+    background-image: url(pexels-midhun-madhu-3805759.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+.resetalign{
+    display: flex;
+    justify-content: space-between;
+}
+.botton{
+    border:2px solid #FADE26;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+}
+.botton:hover{
+    background-color: #FADE26;
+    color: black;
+}
+.main-section{
+    /* background-image: url(pexels-midhun-madhu-3805759.jpg); */
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+.content{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.col-second{
+    position: relative;
+}
+.login-form{
+    /* background-color: #fff; */
+    border-radius: 0.3rem;
+    box-shadow:-1px 4px 28px 0px rgba(0, 0, 0, 0.75);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+input,textarea{
+    /* background-color: rgba(0,0,0,0.5); */
+    padding: 0.3rem;
+    width: 100%;
+    border-radius: 0.3rem;
+    border: none;
+}
+span{
+    color: #FADE26;
+}
+h1,p,h2{
+    text-shadow: 2px 2px 5px black;
+    z-index: 999;
+}
+h2{
+    color: #fff;
+    
+}
+.master-btn{
+    padding: 0.5rem;
+}
+@media only screen and (max-width:769px){
+    .main-section{
+        height: 160vh;
+    }
+}
+@media only screen and (max-width:425px){
+    .login-form{
+        width: 100%;
+        margin-left: 5%;
+    }
+}
+@media only screen and (max-width:1025px){
+    .login-form{
+        width: 80%;
+        margin-left: 5%;
+    }
+}
